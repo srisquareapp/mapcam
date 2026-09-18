@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Map Cam",
+    "slug": "map-cam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "mapcam",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Map Cam needs camera access to capture GPS-stamped photos and videos.",
+        "NSMicrophoneUsageDescription": "Map Cam uses the microphone when video audio is enabled.",
+        "NSLocationWhenInUseUsageDescription": "Map Cam uses your location to place GPS information on photos and videos.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Map Cam can use your location while the app is in use for site documentation."
+      },
+      "bundleIdentifier": "com.mapcam.app"
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.mapcam.app"
+    }
+  }
+}
